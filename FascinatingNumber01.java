@@ -36,12 +36,12 @@ public class FascinatingNumber01 {
 
             boolean found = true;
 
-            for (char ch = '1'; ch <= '9'; ch++) {//Iterate over the string that we get after concatenation.            
+            for (char ch = '1'; ch <= '9'; ch++) {
                 int count = 0;
-                for (int i = 0; i < concatNumber.length(); i++) {
+                for (int i = 0; i < concatNumber.length(); i++) { //loop counts the frequency of each digit
                     char c = concatNumber.charAt(i);
-                    if (c == ch) {//count the frequency of each digit
-                        count++;
+                    if (c == ch) { 
+                        count++; 
                     }
                 }
 
